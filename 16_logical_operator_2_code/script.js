@@ -1,40 +1,42 @@
 // 16. Logical Operator, Code
-// &&, AND Operator
-// const likeMath = false;
+// AND(&&), OR(||), NOT(!)
+// Peter likes math AND science.
+
 // const likeMath = true;
 // const likeScience = true;
-// // console.log(likeMath && likeScience);
 //
-// // || OR operator
-// // console.log(likeMath || likeScience);
+// // AND(&&)
+// console.log(likeMath && likeScience);
 //
+// // OR(||)
+// console.log(likeMath || likeScience);
+//
+// // NOT(!)
 // console.log(!likeMath);
 // console.log(!likeScience);
-
-// Logical operator + if
+// if conditional
 // const likeMath = false;
 const likeMath = true;
 const likeScience = true;
 const likeHistory = true;
 const canEnter = likeMath && likeScience && !likeHistory;
 if (canEnter) {
-    console.log("Peter can enter MIT");
+    alert("Peter can enter MIT.");
 } else {
-    console.log(`Peter, you can't enter MIT.
-    "You should like other subjects.`);
+    alert("Peter, you can't enter MIT.");
 }
 
-
-
+/*
+Peter can enter MIT
+if he likes math
+/and if he likes science
+/ and if he likes history.
+ */
 
 // console.log(likeMath && likeScience && likeHistory);
+//
+// // OR(||)
 // console.log(likeMath || likeScience || likeHistory);
-
-
-
-
-
-
 
 
 
